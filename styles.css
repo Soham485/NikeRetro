@@ -22,8 +22,10 @@ body {background-color: #0F0A0A; color: #F5EFED;}
 
 
 .blink {
-    animation: blink 1s steps(1, end) infinite;
-  }
+    animation: blink 1s steps(1, end) infinite;}
+.blink:hover {
+    animation:none;}
+  
   
   @keyframes blink {
     0% {
