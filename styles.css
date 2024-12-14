@@ -2,4 +2,28 @@
 
 body {background-color: #0F0A0A; color: #F5EFED;}
 
-#main {font-family: 'Jersey 15', sans-serif; font-weight: 400;font-size: larger;text-align: center;background-color: #0F0A0A;}
+#main {font-family: 'Jersey 15', sans-serif; font-weight: 400;font-size: larger;text-align: center;background-color: #0F0A0A;padding-top: 0vw;padding-left: 20vw;padding-right: 20vw;}
+
+.blink {
+    animation: blink 1s steps(1, end) infinite;
+  }
+  
+  @keyframes blink {
+    0% {
+      opacity: 1;
+    }
+    50% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
+.catalogue {  display: flex;align-items: center;;
+}
+
+.catalogue-img {max-width: 20vw;float:left;}
+
+.catalogue-description {margin-left:auto;margin-right:auto;float:right;padding:20vmin;}
+
