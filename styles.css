@@ -154,8 +154,6 @@ section:hover {
 }
 
 .catalogue-text {
-  margin-left: auto;
-  margin-right: auto;
-  float: right;
-  padding: 20vmin;
+float:right;
+padding: 20vmin;
 }
