@@ -31,7 +31,7 @@ a:hover {color: #ff2247;}
   @keyframes nike {
     0% {
       font-style: normal;
-    }
+    } 
     50% {
         font-style: italic;
     }
